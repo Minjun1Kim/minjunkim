@@ -10,6 +10,7 @@ let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
 
 window.onscroll = () => {
+    
     sections.forEach(sec => {
         let top = window.scrollY;
         let offset = sec.offsetTop - 150;
@@ -27,8 +28,8 @@ window.onscroll = () => {
     let header = document.querySelector('header');
     header.classList.toggle('sticky', window.scrollY > 100);
 
-    menuIcon.classList.toggle('bx-x');
-    navbar.classList.toggle('active');
+    menuIcon.classList.remove('bx-x');
+    navbar.classList.remove('active');
 
 };
 
@@ -40,10 +41,10 @@ ScrollReveal({
     delay: 200
 });
 
-ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
-ScrollReveal().reveal('.home-img, .contact form', { origin: 'bottom' });
+ScrollReveal().reveal('.home-content, .heading, .heading2', { origin: 'top' });
+ScrollReveal().reveal('.home-img, .contact form, .portfolio-box, .education-img', { origin: 'bottom' });
 ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
-ScrollReveal().reveal('.home-content p', { origin: 'right' });
+ScrollReveal().reveal('.home-content p, .about-content h3, .about-content p', { origin: 'right' });
 
 // typed JS
 const typed = new Typed('.typing', {
