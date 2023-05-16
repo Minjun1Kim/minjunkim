@@ -48,7 +48,7 @@ ScrollReveal().reveal('.home-content p, .about-content h3, .about-content p', { 
 
 // typed JS
 const typed = new Typed('.typing', {
-    strings: ['Software Developer', 'Mobile App Developer', 'CS student', 'Web Developer', 'Agile Project Manager'],
+    strings: ['Software Developer', 'Mobile App Developer', 'Teaching Assistant', 'CS student', 'Web Developer', 'Agile Project Manager'],
     typeSpeed: 70,
     backSpeed: 40,
     backDelay: 500,
