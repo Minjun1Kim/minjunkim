@@ -255,33 +255,34 @@ span {
 }
 
 .education-content {
-width: 55%;
+    width: 55%;
 }
 
 .education-img {
-width: 45%;
-text-align: right;
+    width: 20%;
+    text-align: right;
 }
 
 .education-img img {
-height: auto;
-max-width: 100%;
-border-radius: 0.5rem;
+    height: auto;
+    max-width: 100%;
+    border-radius: 0.5rem;
 }
 
 .education-content h2 {
-text-align: left;
-line-height: 1.2;
+    text-align: left;
+    line-height: 1.2;
 }
 
 .education-content h3 {
-font-size: 2.6rem;
+    font-size: 2.6rem;
 }
 
 .education-content p {
-font-size: 1.6rem;
-margin: 2rem 0 3rem;
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
 }
+
   
 .skills {
     display: flex;
@@ -292,36 +293,45 @@ margin: 2rem 0 3rem;
 }
 
 .skills-content {
-width: 55%;
+    width: 55%;
 }
 
 .skills-img {
-width: 45%;
-text-align: right;
+    width: 20%;
+    text-align: right;
 }
 
 .skills-img img {
-width: 100%;
-border-radius: 0.5rem;
+    width: 100%;
+    border-radius: 0.5rem;
 }
 
 .heading {
-text-align: center;
-font-size: 4.5rem;
+    text-align: center;
+    font-size: 4.5rem;
 }
 
 .skills-content h2 {
-text-align: left;
-line-height: 1.2;
+    text-align: left;
+    line-height: 1.2;
 }
 
 .skills-content h3 {
-font-size: 2.6rem;
+    font-size: 2.6rem;
+}
+
+.skills-content h4 {
+    font-size: 2.0rem;
 }
 
 .skills-content p {
-font-size: 1.6rem;
-margin: 2rem 0 3rem;
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+
+.skills-content li {
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
 }
   
 .experience {
@@ -333,34 +343,42 @@ margin: 2rem 0 3rem;
 }
 
 .experience-content {
-width: 55%;
+    width: 55%;
 }
 
 .experience-img {
-width: 45%;
-text-align: right;
+    width: 30%;
+    text-align: right;
 }
 
 .experience-img img {
-height: auto;
-max-width: 100%;
-border-radius: 0.5rem;
+    height: auto;
+    max-width: 100%;
+    border-radius: 0.5rem;
 }
 
 .experience-content h2 {
-text-align: left;
-line-height: 1.2;
+    text-align: left;
+    line-height: 1.2;
 }
 
 .experience-content h3 {
-font-size: 2.6rem;
+    font-size: 2.6rem;
+}
+
+.experience-content h4 {
+    font-size: 2.0rem;
 }
 
 .experience-content p {
-font-size: 1.6rem;
-margin: 2rem 0 3rem;
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
 }
 
+.experience-content li {
+    font-size: 1.6rem;
+    margin: 0 0 1rem; /* Adjust the margin as needed */
+}
 
 .projects {
     background: var(--second-bg-color);
